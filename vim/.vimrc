@@ -579,3 +579,5 @@ Plug '~/my-prototype-plugin'
 
 " Initialize plugin system
 call plug#end()
+
+set clipboard+=unnamed
