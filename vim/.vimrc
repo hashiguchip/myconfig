@@ -8,8 +8,14 @@ set nocompatible
 set backspace=indent,eol,start
 
 " 行頭に行番号を表示する（今はコメントアウト）
-"set number
+set number
 
+" キーマップの変更
 inoremap <silent> kj <ESC>
+" 十字キー
+noremap l l
+noremap k k
+noremap j j
+noremap h h
 
 set clipboard+=unnamed
