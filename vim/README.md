@@ -1,5 +1,9 @@
 # vim
 
+## Setup
+### symbolic link
+ln -s ~/myconfig/vim/.vimrc ~/.vimrc
+
 ## クリップボードの設定
 
 `set clipboard+=unnamed`だけでは不十分
