@@ -37,8 +37,15 @@ call plug#begin('~/myconfig/vim/plugged')
 
 Plug 'junegunn/vim-easy-align'
 
+Plug 'liuchengxu/space-vim-theme'
+
 " Initialize plugin system
 " endは必須
 call plug#end()
 "vim-plugここまで--------------------------------------------------------------------------------
 
+"liuchengxu/space-vim-themeのconfig
+set background=dark
+let g:space_vim_transp_bg = 1
+let g:space_vim_filetype_hi_groups = 1
+colorscheme space_vim_theme
