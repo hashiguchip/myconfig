@@ -12,15 +12,16 @@ set number
 
 " キーマップの変更
 inoremap <silent> kj <ESC>
-" 十字キー
+" 十字キー変更したかったらいじってください
 noremap l l
 noremap k k
 noremap j j
 noremap h h
 
+" クリップボードの共有
 set clipboard+=unnamed
 
-" vim-plug
+" vim-plug---------------------------------------------------------------------------------------
 " vim-plug__Automatic installation
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
@@ -39,4 +40,5 @@ Plug 'junegunn/vim-easy-align'
 " Initialize plugin system
 " endは必須
 call plug#end()
-" vim-plugここまで
+"vim-plugここまで--------------------------------------------------------------------------------
+
