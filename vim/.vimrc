@@ -39,6 +39,8 @@ Plug 'junegunn/vim-easy-align'
 
 Plug 'liuchengxu/space-vim-theme'
 
+Plug 'itchyny/lightline.vim'
+
 " Initialize plugin system
 " endは必須
 call plug#end()
@@ -49,3 +51,8 @@ set background=dark
 let g:space_vim_transp_bg = 1
 let g:space_vim_filetype_hi_groups = 1
 colorscheme space_vim_theme
+
+" itchyny/lightline.vimのconfig
+set laststatus=2
+set t_Co=256
+
