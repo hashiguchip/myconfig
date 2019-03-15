@@ -14,9 +14,16 @@ set number
 inoremap <silent> kj <ESC>
 " 十字キー変更したかったらいじってください
 noremap l l
-noremap k k
-noremap j j
-noremap h h
+noremap i k
+noremap k j
+noremap j h
+noremap <S-k> k
+" ジャンプ
+noremap <C-k><C-k> gg
+noremap <C-k> G
+" インサートモード
+noremap d i
+noremap f a
 
 " クリップボードの共有
 set clipboard+=unnamed
