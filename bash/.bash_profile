@@ -45,6 +45,13 @@ alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
 #   3. Scripts
 #   -------------------------------
 
+#
+#    mkdir + touch
+#
+mkdirf() {
+    mkdir -p $( dirname "$1") && touch "$1"
+}
+
 
 #   -------------------------------
 #   3. Import Setting
