@@ -54,6 +54,5 @@ alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
 
 for file in ~/myconfig/bash/bash_profile/*
 do
-  echo ${file}
   source ${file}
 done
