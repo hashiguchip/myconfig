@@ -20,7 +20,7 @@
 
 #   Set Paths
 #   ------------------------------------------------------------
-    exprot PATH=${PATH}:$HOME/bin
+    export PATH=${PATH}:$HOME/bin
 
 #   Set default blocksize for ls, df, du
 #   from this: http://hints.macworld.com/comment.php?mode=view&cid=24491
@@ -45,3 +45,15 @@ alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
 #   3. Scripts
 #   -------------------------------
 
+
+#   -------------------------------
+#   3. Import Setting
+#   -------------------------------
+#   PC固有で設定を持ちたい場合のために外部ファイルからimportできるようにする
+#   ------------------------------------------------------------
+
+for file in ~/myconfig/bash/bash_profile/*
+do
+  echo ${file}
+  source ${file}
+done
