@@ -40,6 +40,7 @@
 #   -----------------------------
 
 alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
+alias cdh='cd ~/'                           # cd to home
 
 #   -------------------------------
 #   3. Scripts
