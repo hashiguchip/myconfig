@@ -10,6 +10,9 @@ set backspace=indent,eol,start
 " 行頭に行番号を表示する（今はコメントアウト）
 set number
 
+" 自動改行無効
+set textwidth=0
+
 " キーマップの変更
 inoremap <silent> kj <ESC>
 " 十字キー変更したかったらいじってください
