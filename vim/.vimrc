@@ -12,6 +12,7 @@ set number
 
 " 自動改行無効
 set textwidth=0
+formatoptions=q
 
 " キーマップの変更
 inoremap <silent> kj <ESC>
